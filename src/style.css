@@ -1,1 +1,12 @@
 /* styles go here */
+* {
+  margin: 0;
+}
+
+.inputBlock {
+  margin-top: 20px;
+}
+
+.form-field {
+  margin-top: 10px;
+}
