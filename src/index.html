@@ -22,11 +22,11 @@
       <fieldset class="inputBlock">
         <legend class="section-title">Personal information</legend>
 
-        <div class="form-field">
-          <label for="surname" class="input"  >Surname:</label>
+        <div >
+          <label for="surname" class="input" >Surname:</label>
           <input
-          id="surname"
           type="text"
+          id="surname"
           name="surname"
           autocomplete="off"
           >
@@ -35,10 +35,10 @@
         <div class="form-field">
           <label for="name" class="input" >Name:</label>
           <input
+          type="text"
           id="name"
-            type="text"
-            name="name"
-            autocomplete="off"
+          name="name"
+          autocomplete="off"
           >
         </div>
 
@@ -46,7 +46,7 @@
           <label
           for="age"
           class="input"
-          >How old are you?
+          >How old are You?
           </label>
           <input
           id="age"
@@ -71,7 +71,7 @@
           <label for="accept-terms" class="input" >I accept the terms of the agreement
           </label>
           <input
-          id="accept-terms"
+          id="acceptTerms"
           type="checkbox"
           name="accept-terms"
           required
@@ -83,7 +83,7 @@
       <fieldset class="inputBlock">
         <legend class="section-title">Registration</legend>
 
-        <div class="form-field">
+        <div>
           <label for="email">
             E-mail:
           </label>
@@ -115,7 +115,7 @@
           An interesting fact about you!
         </legend>
 
-        <div class="form-field">
+        <div>
           <label for="cats" class="input">Do you love cats?</label>
           <input
           name="yes-cats"
@@ -134,7 +134,7 @@
         </div>
 
         <div class="form-field">
-          <label for="fav-colour" class="input">What is you favorite color?</label>
+          <label for="fav-colour" class="input">What is your favorite color?</label>
           <input
           id="fav-colour"
           type="color"
@@ -154,7 +154,7 @@
         </div>
 
         <div class="form-field">
-          <label for="car" class="input">What is your favorite brand of car?</label>
+          <label for="car" class="input">What are your favorite brand of car?</label>
           <select
             name="car"
             id="cars"
@@ -187,14 +187,13 @@
       <fieldset class="inputBlock">
         <legend>Additional info:</legend>
 
-        <div class="form-field">
+        <div>
           <label for="comments" class="input">Comments:</label>
           <textarea
           name="comments"
           id="comments"
-          cols="30"
-          rows="10"
-          autocomplete="off"
+          cols="15"
+          rows="2"
           minlength="30"
           maxlength="500"
           >
@@ -204,8 +203,8 @@
         <div class="form-field">
           <label for="recommend" class="input">Would you recommend us?</label>
           <select name="recommend" id="recommend">
-            <option value="yes">Yes</option>
-            <option value="no">No</option>
+            <option value="yes">yes</option>
+            <option value="no">no</option>
           </select>
         </div>
       </fieldset>
@@ -215,7 +214,7 @@
         <input
         id="submit"
         type="submit"
-        value="submit"
+        value="Submit"
         class="input"
         >
       </div>
